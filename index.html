@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>Abandoned Bicycles</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+        <br>
+        <h1>Complaints of Abandoned Bikes On the Rise</h1>
+        <h3>By Ryan Kelley</h3>
+
+        <p class="main-text">The City of New York received a record number of complaints of bicycles chained to public property in 2016, a trend that city officials can’t seem to put the brakes on.
+        </p>
+
+        <p class="main-text"> There were 1768 such complaints recorded in the 311 system, an increase of nearly 2000 percent since 2010.
+        </p>
+
+        <p class="main-text">In response to the surge, the city <a href="http://rules.cityofnewyork.us/content/change-criteria-removal-derelict-bicycles-public-property-0">loosened its criteria</a> for determining when a bicycle is derelict on Sept. 25, 2016. In theory, this
+            would allow the Department of Sanitation to remove more bikes, clearing space on bike racks and making sidewalks cleaner. Through the first two months of 2017, however, there were almost an identical number of complaints as the same two months
+            the previous year.
+        </p>
+        <!--links to city info about rule change-->
+
+        <p class="main-text">The four criteria that define a bike as derelict are illustrated below, only two of which need to be present for DSNY to remove it.
+        </p>
+
+        <br>
+
+        <div class="photo-container">
+
+            <img id="photo1" src="images/bike.jpg">
+
+            <div id="circle-crushed" class="circle" data-text="The bike appears to be crushed or not usable">
+            </div>
+            <!--closes circle-->
+
+            <div id="circle-missing" class="circle" data-text="The bike is missing essential parts such as handlebars, pedals, rear wheel or bicycle chain.">
+            </div>
+            <!--closes circle-->
+
+            <div id="circle-damage" class="circle" data-text="The handlebars, pedals, spokes, frames or rims are damaged or bent.">
+            </div>
+            <!--closes circle-->
+
+            <div id="circle-rust" class="circle" data-text="50 percent or more of the bike is rusted, including parts like the frame, handlebars, pedals and bike chain.">
+            </div>
+            <!--closes circle-->
+
+            <div class="info-slide" id="slide">
+
+                <div id="X-close" class="btn-close">
+                    <p>X</p>
+                </div>
+                <!--closes X -->
+                <img src="images/slide.png">
+                <!-- needed this to make it work, couldn't figure out the other way-->
+                <div class="info-popIn"></div>
+            </div>
+            <!--closes info slide-->
+        </div>
+        <!--closes photo container -->
+        <div class="caption">
+            A derelict bike locked to a bike rack on 40th Street in Manhattan. <span class="credit">(Photo by Ryan Kelley) </span>
+        </div>
+
+        <br>
+
+        </div>
+        <p class="main-text">The responsibility for solving this problem has spread to other city departments as well. According to Belinda Mager, director of digital media and communications for the Department of Sanitation, they do not deal with bikes chained to trees or
+            other usable bikes.
+        </p>
+
+        <p class="main-text">Therefore, the Parks Department has to respond. Crystal Howard, director of media relations for the Parks Department, said that not only is it against park rules, but locking a bike to a tree can harm the environment.
+        </p>
+
+        <p class="main-text">&#34;Chains and locks can also leave a permanent scar on the trunk and leave an opening for parasites and fungus,&#34; Howard said in an email.
+        </p>
+        <!--&#34; is for quotation marks-->
+
+        <p class="main-text">Howard added that usable bikes clipped from trees are sent to police precincts for vouchering.
+        </p>
+
+        <br>
+
+        <div class="photo-container">
+
+            <img src="images/map2.jpg">
+
+            <div id="circle-percent" class="circle" data-text="50 percent of all complaints originated in Manhattan.">
+            </div>
+
+            <div id="circle-quote" class="circle" data-text="&#34;Everyone is frustrated,&#34; said Karen Overton, founder of Recycle-A-Bicycle. &#34;I think it's becoming a transportation issue, not just a sanitation issue.&#34;">
+            </div>
+
+            <div class="info-slide" id="slide">
+
+                <div id="X-close" class="btn-close">
+                    <p>X</p>
+                </div>
+                <!--closes X -->
+                <img src="images/slide.png">
+                <div class="info-popIn"></div>
+            </div>
+            <!--closes info slide-->
+        </div>
+        <!--closes photo container-->
+
+        <div class="caption">
+            A map of New York City's five boroughs, shaded and labeled corresponding to the number of 311 complaints of <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data">derelict bicycles</a>            in 2016. <a href="https://ryan-kelley.carto.com/builder/d00792de-f268-11e6-bf2a-0ef24382571b/embed">(map built with carto)</a>
+        </div>
+        <!--links to original data and carto-->
+
+        <br>
+
+        <p class="main-text"> So, what happens to all the bikes after they’re removed? Karen Overton, founder of Recycle-A-Bicycle, has been trying to answer that question for years.
+        </p>
+
+        <p class="main-text"> The Department of Sanitation is still only removing bikes that are ready to be scrapped, Overton said. Plenty of those bikes, and the usable bikes claimed by the police, have parts that could be recycled and refurbished at one of Overton’s three
+            shops. Since 2013, Overton has been working with the city to coordinate their efforts and recycle more bikes and parts.
+        </p>
+
+        <p class="main-text"> Yet, the plan that was set in motion might not actually take effect until 2019, Overton said, a stark reminder of the red tape surrounding this issue.
+        </p>
+
+        <p class="main-text">&#34;I have a board member who called in a single bike over a 10-year period,&#34; Overton said. &#34;That bike is still there.&#34;
+        </p>
+
+        <br>
+        <br>
+        <!-- Your javascript should be called here -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+
+    </body>
+
+</html>
