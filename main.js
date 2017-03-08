@@ -1,3 +1,4 @@
+alert("Hello, World!");
 $(document).ready(function () { // we must wait for the DOM to be ready as the browser can take a little while to read all of the HTML and build the elements
 
 	$('.circle').on('click', function (e) {
@@ -27,7 +28,7 @@ $(document).ready(function () { // we must wait for the DOM to be ready as the b
 		//figures out which popup is open
 
 		popUp.removeClass('active');
-		//removes the active class from the triggered popup 
+		//removes the active class from the triggered popup
 
 	});
 });
