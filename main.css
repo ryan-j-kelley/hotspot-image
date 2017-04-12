@@ -214,29 +214,29 @@ li {
 
 @media(min-width: 729px) {
     .main-text, h3 {
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
         font-size: 1.3em;
         padding: 15px;
         line-height: 25px;
     }
     h1 {
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
         font-size: 2em;
     }
     li {
-        margin-left: 200px;
+        margin-left: 300px;
         font-size: 1.3em;
-        max-width: 800px;
+        max-width: 600px;
         line-height: 25px;
     }
     .photo-container {
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
     }
     .caption {
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
     }
     #circle-missing {
@@ -251,6 +251,11 @@ li {
     .info-popIn {
         font-size: 4em;
         padding: 200px 15px 30px 15px;
+    }
+    #photo2 {
+        max-width: 600px;
+        margin: 0 auto;
+        display: block;
     }
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
