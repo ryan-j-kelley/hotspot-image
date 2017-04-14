@@ -210,6 +210,50 @@ li {
 
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .main-text, h3 {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 1.3em;
+        padding: 15px;
+        line-height: 25px;
+    }
+    h1 {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 2em;
+    }
+    li {
+        margin-left: 300px;
+        font-size: 1.3em;
+        max-width: 600px;
+        line-height: 25px;
+    }
+    .photo-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .caption {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #circle-missing {
+        top: 50%;
+    }
+    #circle-crushed {
+        left: 71%;
+    }
+    #circle-percent {
+        left: 50%;
+    }
+    .info-popIn {
+        font-size: 3em;
+        padding: 150px 15px 30px 15px;
+    }
+    #photo2 {
+        max-width: 600px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 
 @media(min-width: 729px) {
